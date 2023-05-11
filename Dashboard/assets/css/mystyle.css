@@ -1,0 +1,54 @@
+ .button-div{
+   /* display: flex; 
+   justify-content:center; */
+   transform: translateX(25%);
+  } 
+  .button{
+      width: 150px;
+      height: 40px;
+      background: #0084d5;
+      margin-left: 10px;
+      border-radius: 15px;
+      border: 1px solid black;
+      font-size: 20px;
+  }
+  .button:nth-child(2){
+      background: red;
+  }
+  .admin{
+      text-align: center;
+  }
+  .hr{
+   background-color: white;
+   width: 50%;
+   height: 1px;
+   margin: auto;
+  }
+  .form{
+transform: translateX(15%);  
+}
+.active{
+    color: #28D094;
+    font-size: 15px;
+}
+.footer {
+    background: #342e3b;
+    padding: 20px 1rem;
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    font-size: calc(0.875rem - 0.05rem);
+    font-weight: 300; }
+    .footer a {
+      color: red;
+      font-size: inherit; }
+    @media (max-width: 991px) {
+      .footer {
+        margin-left: 0;
+        width: 100%; } }
+.table td{
+    color: rgb(255, 250, 250);
+}
+   
+   
